@@ -46,7 +46,7 @@ $apps = @(
     "king.com.*"
     "*iHeartRadio*"
     "*network*"
-    "*Eclipse ma*"
+    "*Eclipse*"
     "*Wunderlist*"
     "*translat*"
     "*Duolingo*"
