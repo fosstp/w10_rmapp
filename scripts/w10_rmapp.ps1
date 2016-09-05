@@ -3,7 +3,7 @@
 REG ADD "HKLM\Software\Policies\Microsoft\Windows\CloudContent" /v DisableWindowsConsumerFeatures /d 1 /t REG_DWORD /f
 
 echo "移除內建APP"
-# 以下可以自由選用 加 # 代表不移除
+# 以下可以自由選用
 $apps = @(
     # default Windows 10 apps
     "Microsoft.3DBuilder"

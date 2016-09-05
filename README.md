@@ -18,15 +18,20 @@ Fork from [W4RH4WK/Debloat-Windows-10](https://github.com/W4RH4WK/Debloat-Window
 
 選 Y
 
+解除網路下載的檔案限制
+
+    PS > ls -Recurse *.ps1 | Unblock-File
+    PS > ls -Recurse *.psm1 | Unblock-File
+
 執行欲執行的腳本
 
 移除 內建 APP
 
-    PS> w10_rmapp.ps1
+    PS> .\scripts\w10_rmapp.ps1
 
 移除 OneDrive
 
-    PS> remove-onedrive.ps1
+    PS> .\scripts\remove-onedrive.ps1
 
 
 ## License
