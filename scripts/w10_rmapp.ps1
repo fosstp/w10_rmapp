@@ -1,9 +1,9 @@
 # Requires -RunAsAdministrator
-# ç§»é™¤ CloudContent Consumer Experience é¿å… è¢«å®‰è£(å¯ç”±ç¾¤çµ„åŸå‰‡è™•ç†)
+# ²¾°£ CloudContent Consumer Experience Á×§K ³Q¦w¸Ë(¥i¥Ñ¸s²Õ­ì«h³B²z)
 REG ADD "HKLM\Software\Policies\Microsoft\Windows\CloudContent" /v DisableWindowsConsumerFeatures /d 1 /t REG_DWORD /f
 
-echo "ç§»é™¤å…§å»ºAPP"
-# ä»¥ä¸‹å¯ä»¥è‡ªç”±é¸ç”¨
+echo "²¾°£¤º«ØAPP"
+# ¥H¤U¥i¥H¦Û¥Ñ¿ï¥Î
 $apps = @(
     # default Windows 10 apps
     "Microsoft.3DBuilder"
