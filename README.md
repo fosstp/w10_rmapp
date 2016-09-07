@@ -20,8 +20,7 @@ Fork from [W4RH4WK/Debloat-Windows-10](https://github.com/W4RH4WK/Debloat-Window
 
 解除網路下載的檔案限制
 
-    PS > ls -Recurse *.ps1 | Unblock-File
-    PS > ls -Recurse *.psm1 | Unblock-File
+    PS > ls -r *.ps* | Unblock-File
 
 執行欲執行的腳本
 
