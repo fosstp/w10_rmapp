@@ -28,7 +28,7 @@ $apps = @(
     "Microsoft.WindowsMaps"
     "Microsoft.WindowsPhone"
     #"Microsoft.WindowsSoundRecorder"
-    "Microsoft.WindowsStore"
+    #"Microsoft.WindowsStore"
     "Microsoft.XboxApp"
     "Microsoft.ZuneMusic"
     "Microsoft.ZuneVideo"
