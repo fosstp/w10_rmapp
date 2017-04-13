@@ -7,6 +7,7 @@ echo "移除內建APP"
 $apps = @(
     # default Windows 10 apps
     "Microsoft.3DBuilder"
+	#"Microsoft.Microsoft3DViewer"
     "Microsoft.Appconnector"
     "Microsoft.BingFinance"
     "Microsoft.BingNews"
@@ -38,6 +39,8 @@ $apps = @(
     "Microsoft.ConnectivityStore"
     "Microsoft.Messaging"
     "Microsoft.Office.Sway"
+	"Microsoft.NetworkSpeedTest"
+	"Microsoft.MicrosoftPowerBIForWindows"
 
     # non-Microsoft
     "*Twitter*"
@@ -45,13 +48,14 @@ $apps = @(
     "*Shazam*"
     "king.com.*"
     "*iHeartRadio*"
-    "*network*"
     "*Eclipse*"
     "*Wunderlist*"
     "*translat*"
     "*Duolingo*"
     "*Photoshop*"
     "*Pics*"
+	# 下面的是 Code Writer
+	"*ActiproSoftware*"
 )
 
 foreach ($app in $apps) {

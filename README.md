@@ -2,6 +2,8 @@
 
 移除 windows 10 內建的 App
 
+支援 windows 10 version 1703 (os:15063)
+
 Fork from [W4RH4WK/Debloat-Windows-10](https://github.com/W4RH4WK/Debloat-Windows-10)
 
 ## 說明
